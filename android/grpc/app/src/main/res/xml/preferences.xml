@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:key="category_settings"
+        android:title="">
+
+        <!--<EditTextPreference android:key="server"-->
+                <!--android:title="@string/server"-->
+                <!--android:defaultValue="www.i-zhaohu.com"-->
+                <!--android:dialogTitle="@string/server"/>-->
+
+        <EditTextPreference android:key="server"
+            android:title="@string/server"
+            android:defaultValue="docker.icloudcare.com:9090"
+            android:dialogTitle="@string/server"/>
+    </PreferenceCategory>
+</PreferenceScreen>

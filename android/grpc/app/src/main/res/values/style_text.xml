@@ -1,0 +1,201 @@
+<resources>
+
+    <style name="bottom_radio">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">9dp</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:textColor">@color/tab_color</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="bottom_radio2">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:textColor">@color/tab_color2</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="txt_topbar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDy">-2.0</item>
+        <item name="android:shadowRadius">4.0</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="textView_TAG_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/text_color_3</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/yellow_stroke_round_radios10_bg</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="service_amount_style_0">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="service_amount_style_1">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="service_amount_style_2">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="service_amount_style_3">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#FA8C1D</item>
+    </style>
+
+    <style name="service_amount_style_4">
+        <item name="android:textSize">19dp</item>
+        <item name="android:textColor">#FA8C1D</item>
+    </style>
+
+    <style name="service_amount_style_5">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="service_amount_style_6">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="text_16_gray_c6c6c8_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/gray_c6c6c8</item>
+    </style>
+
+    <style name="text_15_color_2_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/text_color_2</item>
+    </style>
+
+    <style name="text_17_color_1_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/text_color_1</item>
+    </style>
+
+    <style name="text_12_color_black_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_15_color_black_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_18_color_black_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_20_color_black_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_12_color_white_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_15_color_white_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_18_color_white_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_20_color_white_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_14_color_main_yellow_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/main_yellow</item>
+    </style>
+
+    <style name="text_15_color_main_yellow_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/main_yellow</item>
+    </style>
+
+    <style name="text_20_color_main_yellow_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/main_yellow</item>
+    </style>
+
+    <style name="text_24_color_main_yellow_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@color/main_yellow</item>
+    </style>
+
+    <style name="divider_line">
+        <item name="android:background">@color/dividing_line</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+</resources>

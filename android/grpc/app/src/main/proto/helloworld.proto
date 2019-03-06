@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.helloworld";
+option java_outer_classname = "HelloworldProto";
+option objc_class_prefix = "HLW";
+
+package helloworld;
+
+// 定义服务
+service Greeter {
+    // 服务中的方法，用于根据Name类型的参数获得一个Ip类型的返回值
+    rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
+//定义Name消息类型，其中name为其序列为1的字段
+message HelloRequest {
+    string name = 1;
+}
+//定义Ip消息类型，其中ip为其序列为1的字段
+message HelloReply {
+    string message = 1;
+
+}

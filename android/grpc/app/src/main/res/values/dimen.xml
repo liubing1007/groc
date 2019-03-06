@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">17sp</dimen>
+    <dimen name="slider_margin">6dp</dimen>
+
+    <dimen name="circletimer_dot_size">12dip</dimen>
+    <dimen name="circletimer_circle_size">4dip</dimen>
+    <dimen name="circletimer_marker_size">16dip</dimen>
+    <dimen name="max_font_size">100sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="percent_text_size_default">8sp</dimen>
+    <dimen name="percent_text_size_small">4sp</dimen>
+    <dimen name="percent_text_size_large">12sp</dimen>
+    <dimen name="percent_text_size">22sp</dimen>
+    <dimen name="round_width_default">6dp</dimen>
+    <dimen name="rect_round_default">1dp</dimen>
+    <dimen name="horizontal_corner">10dp</dimen>
+
+    <dimen name="margin_">10dp</dimen>
+    <dimen name="pading_">5dp</dimen>
+    <dimen name="btn_size">22sp</dimen>
+    <dimen name="txt_size">18sp</dimen>
+
+    <!-- 分割线高度 -->
+    <dimen name="line_height">1dp</dimen>
+
+</resources>

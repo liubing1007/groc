@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_mode_entries">
+        <item>@string/institute</item>
+        <item>@string/family</item>
+        <item>@string/night_watch</item>
+    </string-array>
+
+    <string-array name="cancel_task_reason">
+        <item>@string/reason_a</item>
+        <item>@string/reason_b</item>
+        <item>@string/reason_c</item>
+        <item>@string/reason_d</item>
+        <item>@string/reason_e</item>
+    </string-array>
+
+
+
+    <string-array name="app_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!--事件类型-->
+    <string-array name="event_type_item">
+        <item>跌倒</item>
+        <item>伤害（烧、烫、割等）</item>
+        <item>疾病</item>
+        <item>自杀</item>
+        <item>药物事故</item>
+        <item>误服事故</item>
+        <item>服务态度及职责（虐老）</item>
+        <item>老人或家属间纠纷</item>
+        <item>走失</item>
+        <item>管路故障</item>
+        <item>治安事件</item>
+        <item>病人约束</item>
+        <item>其他类型</item>
+    </string-array>
+
+    <!--事件分级-->
+    <string-array name="event_classification_item">
+        <item>未遂事件</item>
+        <item>不良事件</item>
+        <item>一般事故</item>
+        <item>重大事故</item>
+    </string-array>
+
+    <!---->
+    <string-array name="outcome_item">
+        <item>好转</item>
+        <item>跟踪中</item>
+        <item>开除涉事员工</item>
+        <item>家属拒绝就医</item>
+        <item>住院手术</item>
+        <item>住院后死亡</item>
+        <item>急救后死亡</item>
+        <item>其他</item>
+    </string-array>
+
+    <!--认知程度-->
+    <string-array name="cognitive_degree_item">
+        <item>正常</item>
+        <item>轻度</item>
+        <item>中度</item>
+        <item>重度</item>
+    </string-array>
+</resources>
