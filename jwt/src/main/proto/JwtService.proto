@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.jwt";
+option java_outer_classname = "jwtProto";
+option objc_class_prefix = "HLW";
+
+package login;
+
+// 定义服务
+service JwtServer {
+    rpc jwt(JwtRequest) returns (JwtReply) {}
+}
+
+message JwtRequest {
+    string token = 1;
+}
+message JwtReply {
+    string message = 1;
+
+}

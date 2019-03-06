@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.login";
+option java_outer_classname = "LoinProto";
+option objc_class_prefix = "HLW";
+
+package login;
+
+// 定义服务
+service LoginServer {
+    rpc Login(LoginRequest) returns (LoginReply) {}
+}
+
+message LoginRequest {
+    string userName = 1;
+    string pwd = 2;
+}
+message LoginReply {
+    int32 code = 1;
+    string message = 2;
+
+}
